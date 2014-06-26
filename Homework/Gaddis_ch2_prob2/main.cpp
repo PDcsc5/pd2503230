@@ -6,6 +6,7 @@
 
 #include <cstdlib>
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 //User Defined Libraries
@@ -17,11 +18,13 @@ using namespace std;
 //Execution Begins Here
 int main(int argc, char** argv) {
     
-    int x=62,y=99,total=x+y; //Variables
-      
-     cout<<total<<endl; //answer
+    //variables
+    float ecPrcntg=.62,
+          coSales=4600000,
+          ecSales=ecPrcntg*coSales;
+    //answer
+    cout<<fixed<<setprecision(2)<<ecSales<<endl;
     
 //Exit stage right
     return 0;
 }
-

@@ -17,9 +17,10 @@ using namespace std;
 //Execution Begins Here
 int main(int argc, char** argv) {
     
-    int x=62,y=99,total=x+y; //Variables
-      
-     cout<<total<<endl; //answer
+    float Price=52,sTax=.02,cTax=.04,to_sTax=Price*sTax,to_cTax=Price*cTax,
+            to_Tax= to_sTax+to_cTax;
+    
+    cout<<to_Tax<<endl;
     
 //Exit stage right
     return 0;
