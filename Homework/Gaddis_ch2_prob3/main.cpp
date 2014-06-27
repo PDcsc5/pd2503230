@@ -17,8 +17,11 @@ using namespace std;
 //Execution Begins Here
 int main(int argc, char** argv) {
     
-    float Price=52,sTax=.02,cTax=.04,to_sTax=Price*sTax,to_cTax=Price*cTax,
-            to_Tax= to_sTax+to_cTax;
+    float 
+    Price=52,
+    sTax=.02*Price,
+    cTax=.04*Price,
+    to_Tax=sTax+cTax;
     
     cout<<to_Tax<<endl;
     

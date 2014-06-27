@@ -16,14 +16,14 @@ using namespace std;
 //Function Prototypes
 
 //Execution Begins Here
-int main(int argc, char** argv) {
-    
-    //variables
-    float ecPrcntg=.62,
-          coSales=4600000,
-          ecSales=ecPrcntg*coSales;
+int main(int argc, char** argv) 
+{
+    float
+    ecPrcntg=.62, //percent
+    coSales=4.6, //million
+    ecSales=ecPrcntg*coSales; //average
     //answer
-    cout<<fixed<<setprecision(2)<<ecSales<<endl;
+    cout<<"Predicted sales for East Coast dividion is $"<<ecSales<<"million"<<endl;
     
 //Exit stage right
     return 0;

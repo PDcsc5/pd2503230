@@ -1,5 +1,5 @@
 /* 
- * File:   main.cpp
+ * File:   Gaddis_ch2_prob1_1
  * Author: Patrick De La Cruz
  * Created on June 26, 2014, 12:00 PM
  */
