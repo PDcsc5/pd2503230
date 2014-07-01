@@ -47,29 +47,15 @@ int main(int argc, char** argv) {
     cout<<(!x?'T':'F')<<"  ";
     cout<<(!y?'T':'F')<<"   ";
     cout<<(x&&y?'T':'F')<<"    ";
-    cout<<(x||y?'T':'F')<<"   ";
-    cout<<(x^y?'T':'F')<<"    ";
-    cout<<((x^y)^x?'T':'F')<<"     ";
-    cout<<((x^y)^y?'T':'F')<<"      ";
-    cout<<(!(x&&y)?'T':'F')<<"       ";
-    cout<<(!x||!y?'T':'F')<<"      ";
-    cout<<(!(x||y)?'T':'F')<<"      ";
-    cout<<(!x||!y?'T':'F')<<"\n";
+    cout<<(x||y?'T':'F')<<"  "<<endl;
     //Second row
     y=false;
-cout<<(x?'T':'F')<<" ";
+    cout<<(x?'T':'F')<<" ";
     cout<<(y?'T':'F')<<"  ";
     cout<<(!x?'T':'F')<<"  ";
     cout<<(!y?'T':'F')<<"   ";
     cout<<(x&&y?'T':'F')<<"    ";
-    cout<<(x||y?'T':'F')<<"   ";
-    cout<<(x^y?'T':'F')<<"    ";
-    cout<<((x^y)^x?'T':'F')<<"     ";
-    cout<<((x^y)^y?'T':'F')<<"      ";
-    cout<<(!(x&&y)?'T':'F')<<"       ";
-    cout<<(!x||!y?'T':'F')<<"      ";
-    cout<<(!(x||y)?'T':'F')<<"      ";
-    cout<<(!x||!y?'T':'F')<<"\n";
+    cout<<(x||y?'T':'F')<<"  ";
     
     //Exit stage right!
     return 0;
