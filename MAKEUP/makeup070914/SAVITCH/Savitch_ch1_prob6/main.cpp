@@ -1,14 +1,12 @@
 /* 
  * File:   main.cpp
- * Author: Patrick De La Cruz
- * Created on June 26, 2014, 12:00 PM
+ * Author: KrabbyPatty
+ *
+ * Created on June 30, 2014, 7:45 PM
  */
 
-//System Libraries
 #include <cstdlib>
 #include <iostream>
-#include <iomanip>
-#include <string>
 using namespace std;
 
 //User Defined Libraries
@@ -31,4 +29,3 @@ int main(int argc, char** argv) {
 //Exit stage right
     return 0;
 }
-
