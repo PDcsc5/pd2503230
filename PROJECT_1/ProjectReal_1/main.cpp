@@ -142,7 +142,7 @@ do{
             if(command=="pullhair")
             {
                 randomChance=rand()%100+1;
-                if(randomChance<=chanceToPunch)
+                if(randomChance<=chanceToPullHair)
                 {
                     enemyCurrentHealth-=pullDamage;
                 }
